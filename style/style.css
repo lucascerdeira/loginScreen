@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    padding: 80px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    padding: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  button {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    justify-content: center;
+    outline: none; /* Remova o risco adicionando esta propriedade */
+  }
+  
+  button {
+    background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    color: #fff;
+    cursor: pointer;
+    width: 103%; /* Defina a largura desejada */
+    height: 30px; /* Defina a altura desejada */
+    padding: 7px; /* Ajuste o espaçamento interno */
+    display: flex;
+    text-align: center;
+    margin-left: auto; /* Centraliza horizontalmente */
+    margin-right: auto; /* Centraliza horizontalmente */
+  }
+  
+  .newAccount {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+
+  
+  @media (max-width: 480px) {
+    .container {
+      max-width: 300px;
+    }
+  }
+  
