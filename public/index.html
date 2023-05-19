@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../style/style.css">
+    <link rel="stylesheet" type="text/css" href="../style/account.css">
     <link rel="shortcut icon" href="../images/icons/login.png" type="image/x-icon">
     <title>Tela de Login</title>
 </head>
 <body>
 
     <div class="container">
-        <h1>Login</h1>
+      <h1 class="title">Login</h1>
         <form action="http://localhost:3000/login" method="POST">
-          <label for="email">E-mail:</label>
-          <input type="email" id="email" name="email" required>
+  
+          <div class="input-control">
+            <label for="email">E-mail:</label>
+            <input class="input" type="email" id="email" name="email" required>
+          </div>
+           
+          <div class="input-control">
+            <label for="password"> Password:</label>
+            <input class="input" type="text" id="password" name="password" required> 
+          </div>
 
-          <label for="password"> Password:</label>
-          <input type="text" id="password" name="password" required> 
-    
-          <button type="submit">Sing in</button>
+          <button class="button" type="submit">Log In</button>
 
-         <div class="newAccount">
-
+          <div class="new-account">
             Don't have an account? <a href="./telaCadastro.html" > Sign up</a>
-
-         </div>
-
+          </div>
         </form>
       </div>
-    
+ 
 </body>
 </html>
 

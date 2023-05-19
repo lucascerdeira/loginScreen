@@ -6,10 +6,11 @@ body {
   }
   
 .container {
-    max-width: 400px;
-    margin: 0 auto;
-    /*background: linear-gradient(120deg, #ffe53bd8, #ff2525da);*/
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 60rem;
+    background-color: yellow;
+    
     border-radius: 3px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
@@ -28,24 +29,24 @@ body {
   
   input[type="text"],
   input[type="email"],
-  input[type="password"],
-  button {
-    width: 98%;
+  input[type="password"]{
+    width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border-radius: 10px;
     border: 1px solid #ccc;
     justify-content: center;
-    outline: none; /* Remova o risco adicionando esta propriedade */
+    
+    
   }
   
   button {
     background: linear-gradient(120deg, #0f0f0fd8, #a4a1a1da);
     color: #fff;
     cursor: pointer;
-    width: 103%; /* Defina a largura desejada */
+    max-width: 100%; /* Defina a largura desejada */
     height: 30px; /* Defina a altura desejada */
-    padding: 20px; /* Ajuste o espaçamento interno */
+    /*padding: 20px; /* Ajuste o espaçamento interno */
     display: flex;
     text-align: center;
     margin-left: auto; /* Centraliza horizontalmente */
@@ -59,9 +60,4 @@ body {
   
 
   
-  @media (max-width: 480px) {
-    .container {
-      max-width: 300px;
-    }
-  }
-  
+ 
