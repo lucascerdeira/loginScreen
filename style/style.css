@@ -1,13 +1,14 @@
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
-    padding: 80px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(239, 239, 241) 0%, rgba(226,231,231,1) 35%, rgb(237, 240, 241) 100%);
+    padding: 50px;
   }
   
-  .container {
+.container {
     max-width: 400px;
     margin: 0 auto;
-    background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    /*background: linear-gradient(120deg, #ffe53bd8, #ff2525da);*/
     padding: 20px;
     border-radius: 3px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -16,13 +17,13 @@ body {
   h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #fff;
+    color: #080808;
   }
   
   label {
     display: block;
     margin-bottom: 10px;
-    color: #fff;
+    color: #0b0b0b;
   }
   
   input[type="text"],
@@ -39,12 +40,12 @@ body {
   }
   
   button {
-    background: linear-gradient(120deg, #ffe53bd8, #ff2525da);
+    background: linear-gradient(120deg, #0f0f0fd8, #a4a1a1da);
     color: #fff;
     cursor: pointer;
     width: 103%; /* Defina a largura desejada */
     height: 30px; /* Defina a altura desejada */
-    padding: 7px; /* Ajuste o espaçamento interno */
+    padding: 20px; /* Ajuste o espaçamento interno */
     display: flex;
     text-align: center;
     margin-left: auto; /* Centraliza horizontalmente */
